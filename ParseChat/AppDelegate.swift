@@ -19,8 +19,14 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     {
         Parse.initialize(with: ParseClientConfiguration(block: { (configuration: ParseMutableClientConfiguration) in
             configuration.applicationId = "CodePath-Parse"
+            configuration.clientKey = "Sjh38xpoqw"
             configuration.server = "http://45.79.67.127:1337/parse"
         }))
+//        if PFUser.current() != nil {
+//            let storyboard = UIStoryboard(name: "Main", bundle: nil)
+//            // view controller currently being set in Storyboard as default will be overridden
+//            window?.rootViewController = storyboard.instantiateViewController(withIdentifier: "ChatViewController")
+//        }
         // Override point for customization after application launch.
         return true
     }

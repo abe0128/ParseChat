@@ -9,6 +9,9 @@
 /* Begin PBXBuildFile section */
 		128D8D169E76306AC2645185 /* Pods_ParseChatUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 699799A3C3B81BBE4CCA8DD9 /* Pods_ParseChatUITests.framework */; };
 		758D14BDE5BD60BCCE6AC84B /* Pods_ParseChatTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 752888C180A0585A14A269EE /* Pods_ParseChatTests.framework */; };
+		A778393A217FCC1E000C7795 /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7783939217FCC1E000C7795 /* ChatViewController.swift */; };
+		A778393C217FDA41000C7795 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = A778393B217FDA41000C7795 /* Message.swift */; };
+		A778393E217FDF51000C7795 /* ChatCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A778393D217FDF51000C7795 /* ChatCell.swift */; };
 		A77BE48D217E9C3E000AB364 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A77BE48C217E9C3E000AB364 /* AppDelegate.swift */; };
 		A77BE48F217E9C3E000AB364 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A77BE48E217E9C3E000AB364 /* LoginViewController.swift */; };
 		A77BE492217E9C3E000AB364 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A77BE490217E9C3E000AB364 /* Main.storyboard */; };
@@ -41,6 +44,9 @@
 		4F170E0B1903F5AA297BB660 /* Pods-ParseChatTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ParseChatTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ParseChatTests/Pods-ParseChatTests.debug.xcconfig"; sourceTree = "<group>"; };
 		699799A3C3B81BBE4CCA8DD9 /* Pods_ParseChatUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ParseChatUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		752888C180A0585A14A269EE /* Pods_ParseChatTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ParseChatTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A7783939217FCC1E000C7795 /* ChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
+		A778393B217FDA41000C7795 /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		A778393D217FDF51000C7795 /* ChatCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatCell.swift; sourceTree = "<group>"; };
 		A77BE489217E9C3E000AB364 /* ParseChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ParseChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A77BE48C217E9C3E000AB364 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A77BE48E217E9C3E000AB364 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
@@ -128,7 +134,10 @@
 			isa = PBXGroup;
 			children = (
 				A77BE48C217E9C3E000AB364 /* AppDelegate.swift */,
+				A7783939217FCC1E000C7795 /* ChatViewController.swift */,
 				A77BE48E217E9C3E000AB364 /* LoginViewController.swift */,
+				A778393B217FDA41000C7795 /* Message.swift */,
+				A778393D217FDF51000C7795 /* ChatCell.swift */,
 				A77BE490217E9C3E000AB364 /* Main.storyboard */,
 				A77BE493217E9C41000AB364 /* Assets.xcassets */,
 				A77BE495217E9C41000AB364 /* LaunchScreen.storyboard */,
@@ -394,6 +403,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				A77BE48F217E9C3E000AB364 /* LoginViewController.swift in Sources */,
+				A778393C217FDA41000C7795 /* Message.swift in Sources */,
+				A778393A217FCC1E000C7795 /* ChatViewController.swift in Sources */,
+				A778393E217FDF51000C7795 /* ChatCell.swift in Sources */,
 				A77BE48D217E9C3E000AB364 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
